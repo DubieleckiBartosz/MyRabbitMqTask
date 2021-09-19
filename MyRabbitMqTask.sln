@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConsumer", "ApiConsumer\ApiConsumer.csproj", "{D0ADFD06-409E-4850-A87B-3B073726841E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublisherConsoleApp", "PublisherConsoleApp\PublisherConsoleApp.csproj", "{C6AF6E1A-2120-4024-9A54-8BBE2FC583C0}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MyRabbitTaskDb", "MyRabbitTaskDb\MyRabbitTaskDb.sqlproj", "{6C46559E-58E2-4E94-92B9-D60A0DC0FAF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0ADFD06-409E-4850-A87B-3B073726841E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0ADFD06-409E-4850-A87B-3B073726841E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0ADFD06-409E-4850-A87B-3B073726841E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0ADFD06-409E-4850-A87B-3B073726841E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6AF6E1A-2120-4024-9A54-8BBE2FC583C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6AF6E1A-2120-4024-9A54-8BBE2FC583C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6AF6E1A-2120-4024-9A54-8BBE2FC583C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6AF6E1A-2120-4024-9A54-8BBE2FC583C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C46559E-58E2-4E94-92B9-D60A0DC0FAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C46559E-58E2-4E94-92B9-D60A0DC0FAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C46559E-58E2-4E94-92B9-D60A0DC0FAF8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6C46559E-58E2-4E94-92B9-D60A0DC0FAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C46559E-58E2-4E94-92B9-D60A0DC0FAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C46559E-58E2-4E94-92B9-D60A0DC0FAF8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17B79CFF-47F7-4A81-A511-48741F98A33D}
+	EndGlobalSection
+EndGlobal
