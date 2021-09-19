@@ -96,8 +96,9 @@ namespace ApiConsumer.Background
                  else
                  {
                      var date = await service.GetLastDateMessageAsync();
+                
                      if (!(date.Month == content.Date.Month && date.Day == content.Date.Day &&
-                         date.Hour == content.Date.Hour && date.Minute == content.Date.Minute))
+                         date.Hour == content.Date.Hour && date.Minute == content.Date.Minute) || date == default)
                      {
                          await service.CreateNewMessageAsync(content);
                      }

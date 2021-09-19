@@ -43,7 +43,7 @@ namespace ApiConsumer.Services
             using (var connection = _db.GetConnection())
             {
                 var result = await connection.QueryAsync<DateTime>(sql);
-                return result.Single();
+                return result.Any()?result.Single():default;
             }
         }
 
